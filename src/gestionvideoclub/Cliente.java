@@ -56,7 +56,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-	return "Nombre=" + nombre + ", apellidos=" + apellidos + ", codigoCli=" + codigoCli + "]";
+	return "Nombre=" + nombre + ", apellidos=" + apellidos + ", codigoCli=" + codigoCli;
     }
 	
     public boolean alquilar(Pelicula pelicula) {
